@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plaster&display=swap");
 
 :root {
-  --main-color: #ff3c00da;
-  --sub-color: #2600ff;
+  --main-color: #FF0099 ;
+  --sub-color: #00E0FF ;
 }
 /* 드래그했을 때 */
 ::selection {
