@@ -380,8 +380,9 @@ section {
   transition: transform 0.5s;
 }
 .blur_banner h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
+  line-height: 1.2;
   flex: 1 1 0;
 }
 .blur_banner h2::before {
@@ -864,9 +865,11 @@ footer .sns_icons a {
   /* 기본사이즈(40x40) 유지 */
   flex-wrap: wrap;
   transition: 0.5s;
+  filter: invert(1);
 }
 footer .sns_icons a:hover {
   opacity: 1;
   background-color: var(--main-color);
   border-radius: 10px;
+  filter: invert(0);
 }
